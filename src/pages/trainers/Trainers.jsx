@@ -11,10 +11,10 @@ import Icon from '@ant-design/icons'
 const Trainers = () => {
   return (
     <>
-    <Header title="Our Trainers" image={HeaderImage}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab explicabo natus repellat vero ea ipsum facere iste adipisci labore?
+<Header title="Our Trainers" image={HeaderImage}>
+  Meet our expert trainers dedicated to helping you achieve your fitness goals with personalized guidance and motivation.
+</Header>
 
-    </Header>
 
     <section className="trainers">
       <div className="container trainers__container">

@@ -8,10 +8,10 @@ import './plans.css'
 const Plans = () => {
   return (
     <>
-    <Header title="Membership Plans" image={HeaderImage}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sed facilis tempore recusandae autem odio fugit dolores.
+<Header title="Membership Plans" image={HeaderImage}>
+  Explore our tailored membership plans designed to fit your lifestyle and needs. Choose the perfect plan to unlock exclusive benefits and enjoy premium features.
+</Header>
 
-    </Header>
     <section className="plans">
       <div className="container plans__container">
         {

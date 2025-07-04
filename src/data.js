@@ -22,75 +22,77 @@ export const links = [
         name:"Trainers",
         path:'/trainers'
     },
-    {
-        name:"Contact",
-        path:'/contact'
-    },
-]
+//     {
+//         name:"Contact",
+//         path:'/contact'
+//     },
+    ]
 
 export const programs = [
     {
         id: 1,
-        icon: <SiOpenaigym/>,
-        title:"Program One",
-        info:"This is the day that lord has made",
-        path:"/programs/111"
+        icon: <SiOpenaigym />,
+        title: "Strength Training",
+        info: "Build muscle, gain power, and push your physical limits with expert-led strength sessions.",
+        path: "/programs/strength"
     },
 
     {
         id: 2,
-        icon: <SiOpenaigym/>,
-        title:"Program Two",
-        info:"This is the day that lord has made",
-        path:"/programs/222"
+        icon: <SiOpenaigym />,
+        title: "Cardio Blast",
+        info: "Burn fat, boost endurance, and elevate your heart rate with high-energy cardio workouts.",
+        path: "/programs/cardio"
     },
 
     {
         id: 3,
-        icon: <SiOpenaigym/>,
-        title:"Program Three",
-        info:"This is the day that lord has made",
-        path:"/programs/333"
+        icon: <SiOpenaigym />,
+        title: "Flexibility & Mobility",
+        info: "Improve your range of motion and prevent injury with guided stretching and mobility routines.",
+        path: "/programs/flexibility"
     },
 
     {
         id: 4,
-        icon: <SiOpenaigym/>,
-        title:"Program Four",
-        info:"This is the day that lord has made",
-        path:"/programs/444"
+        icon: <SiOpenaigym />,
+        title: "HIIT Challenge",
+        info: "Fast-paced, high-intensity interval training to maximize fat burn in minimal time.",
+        path: "/programs/hiit"
     }
-]
+];
+
 
 export const values = [
     {
         id: 1,
-        icon: <SiOpenaigym/>,
-        title:"Value One",
-        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, inventore!"
+        icon: <SiOpenaigym />,
+        title: "Discipline",
+        desc: "We believe consistent effort beats short bursts of motivation. Show up, stay focused, and results will follow."
     },
 
     {
         id: 2,
-        icon: <SiOpenaigym/>,
-        title:"Value Two",
-        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, inventore!"
+        icon: <SiOpenaigym />,
+        title: "Community",
+        desc: "You're not in this alone. Our supportive environment lifts everyone up — no matter your fitness level."
     },
 
     {
         id: 3,
-        icon: <SiOpenaigym/>,
-        title:"Value Three",
-        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, inventore!"
+        icon: <SiOpenaigym />,
+        title: "Growth",
+        desc: "We push past limits to unlock your full potential — mentally and physically."
     },
 
     {
         id: 4,
-        icon: <SiOpenaigym/>,
-        title:"Value Four",
-        desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, inventore!"
+        icon: <SiOpenaigym />,
+        title: "Integrity",
+        desc: "We train with purpose, lead by example, and stay true to our goals and values."
     }
-]
+];
+
 
 
 export const faqs = [
@@ -169,71 +171,65 @@ export const testimonials = [
 
 ]
 
-export const plans =[
+export const plans = [
     {
         id: 1,
         name: 'Silver Package',
-        desc: 'This package is perfect for beginners who need constatnt help',
-        price: 7000,
+        desc: 'Ideal for beginners who need constant support and guidance to build a strong foundation.',
+        price: 4000,
         features: [
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: false},
-            {feature: 'Sixth Feature', available: false},
-            
-            {feature: 'Seventh Feature', available: false},
-            {feature: 'Eighth Feature', available: false},
-            {feature: 'Ninth Feature', available: false},
-            {feature: 'Tenth Feature', available: false},
-            {feature: 'Eleventh Feature', available: false},
+            { feature: 'Access to all gym equipment', available: true },
+            { feature: 'Basic workout plan', available: true },
+            { feature: 'Weekly progress check-ins', available: true },
+            { feature: 'Locker room access', available: true },
+            { feature: '1 Group class per week', available: true },
+            { feature: 'Personal trainer access', available: false },
+            { feature: 'Customized nutrition plan', available: false },
+            { feature: 'Home workout support', available: false },
+            { feature: 'Priority scheduling', available: false },
+            { feature: 'Wellness workshops', available: false },
+            { feature: 'Massage & recovery services', available: false },
         ]
     },
     {
         id: 2,
-        name: 'Gold Pacakge',
-        desc: 'This is the perfect for beginners who know what their doing',
-        price: 9000,
-        features:[
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: true},
-            {feature: 'Sixth Feature', available: true},
-            
-            {feature: 'Seventh Feature', available: true},
-            {feature: 'Eighth Feature', available: false},
-            {feature: 'Ninth Feature', available: false},
-            {feature: 'Tenth Feature', available: false},
-            {feature: 'Eleventh Feature', available: false},
+        name: 'Gold Package',
+        desc: 'Great for regular gym-goers who want more flexibility and features to enhance their routine.',
+        price: 6000,
+        features: [
+            { feature: 'Access to all gym equipment', available: true },
+            { feature: 'Advanced workout plans', available: true },
+            { feature: 'Bi-weekly progress check-ins', available: true },
+            { feature: 'Locker room + shower access', available: true },
+            { feature: '3 Group classes per week', available: true },
+            { feature: 'Limited personal trainer access', available: true },
+            { feature: 'Customized nutrition plan', available: true },
+            { feature: 'Home workout support', available: true },
+            { feature: 'Priority scheduling', available: false },
+            { feature: 'Wellness workshops', available: false },
+            { feature: 'Massage & recovery services', available: false },
         ]
     },
     {
         id: 3,
-        name: ' Platinum Pacakge',
-        desc: 'This is the perfect for busy people who need home service',
-        price: 12000,
-        features:[
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: true},
-            {feature: 'Sixth Feature', available: true},
-            
-            {feature: 'Seventh Feature', available: true},
-            {feature: 'Eighth Feature', available: true},
-            {feature: 'Ninth Feature', available: true},
-            {feature: 'Tenth Feature', available: true},
-            {feature: 'Eleventh Feature', available: true},
+        name: 'Platinum Package',
+        desc: 'Perfect for busy professionals who want full-featured, premium services — including home support.',
+        price: 7000,
+        features: [
+            { feature: 'Access to all gym equipment', available: true },
+            { feature: 'Custom workout plans', available: true },
+            { feature: 'Weekly personal assessments', available: true },
+            { feature: 'Locker + premium amenities', available: true },
+            { feature: 'Unlimited group classes', available: true },
+            { feature: 'Dedicated personal trainer', available: true },
+            { feature: 'Customized nutrition coaching', available: true },
+            { feature: 'Home workout & virtual support', available: true },
+            { feature: 'Priority scheduling', available: true },
+            { feature: 'Wellness workshops', available: true },
+            { feature: 'Massage & recovery services', available: true },
         ]
-    },
-]
+    }
+];
 
 const Trainer1 = require('./images/trainer1.jpg')
 const Trainer2 = require('./images/trainer2.jpg')

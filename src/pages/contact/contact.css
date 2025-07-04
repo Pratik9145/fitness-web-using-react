@@ -1,38 +1,226 @@
-.contact__container{
+/* Contact Container Styles */
+.contact__container {
     display: grid;
     place-items: center;
-
+    margin: 3rem 0;
 }
 
-.contact__wrapper{
+.contact__wrapper {
     width: fit-content;
     display: flex;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 
-.contact__wrapper a{
+.contact__wrapper a {
     background: var(--color-primary);
     font-size: 2rem;
     border: 2px solid transparent;
-    transition: 2rem;
+    transition: all 0.3s ease; /* Fixed transition property */
     padding: 2rem;
     border-radius: 1.5rem;
+    color: var(--color-white, #fff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.contact__wrapper a:hover{
+.contact__wrapper a:hover {
     background: transparent;
     border-color: var(--color-gray-100);
+    color: var(--color-gray-100);
+}
+
+/* Main Form Container */
+.query__wrapper {
+    max-width: none;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-primary);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Form heading */
+.query__wrapper h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Form list reset */
+.query__wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Labels */
+.query__wrapper label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+/* Inputs */
+.query__wrapper input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: var(--color-gray-600);
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+/* Make the message input larger */
+.query__wrapper input[name="User name"]:last-of-type {
+    min-height: 100px;
+    /* max-width: 100%; */
+    padding-top: 0.75rem;
+}
+
+/* Placeholder styling */
+.query__wrapper input::placeholder {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+/* Focus states */
+.query__wrapper input:focus {
+    outline: none;
+    border-color: var(--color-primary, #4a90e2);
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+/* Add a submit button (should be added to HTML) */
+.query__wrapper button {
+    background-color: var(--color-primary, #4a90e2);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.query__wrapper button:hover {
+    background-color: var(--color-primary-variant, #3a7bc8);
 }
 
 /* Media Queries */
-@media screen and (max-width: 600px){
-    .contact__wrapper{
+@media screen and (max-width: 600px) {
+    .contact__wrapper {
         gap: 1.5rem;
     }
 
-    .contact__wrapper a{
+    .contact__wrapper a {
         padding: 1rem;
         font-size: 1.2rem;
         border-radius: 1rem;
+    }
+    
+    .query__wrapper {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+}
+
+/* Message Input Specific Styles */
+.query__wrapper textarea {
+    width: 100%;
+    min-height: 150px; /* Increased height for message box */
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: var(--color-gray-600);
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    resize: vertical; /* Allows vertical resizing only */
+}
+
+/* Focus state for textarea */
+.query__wrapper textarea:focus {
+    outline: none;
+    border-color: var(--color-primary, #4a90e2);
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+/* Placeholder styling */
+.query__wrapper textarea::placeholder {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+/* Form group styling for better spacing */
+.query__wrapper .form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Make all inputs consistent */
+.query__wrapper input:not([type="submit"]),
+.query__wrapper textarea,
+.query__wrapper select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: var(--color-gray-600);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* Error states */
+.query__wrapper .error {
+    border-color: #ff4444 !important;
+}
+
+.query__wrapper .error-message {
+    color: #ff4444;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+/* Success message */
+.query__wrapper .success-message {
+    background-color: rgba(76, 175, 80, 0.2);
+    color: #4CAF50;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    border: 1px solid #4CAF50;
+}
+
+@media screen and (max-width: 600px) {
+    .query__wrapper textarea {
+        min-height: 120px; /* Slightly smaller on mobile */
+    }
+    
+    /* Make form inputs full width on mobile */
+    .query__wrapper {
+        width: 90%;
+        margin: 1rem auto;
     }
 }
