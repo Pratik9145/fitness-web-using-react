@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+````markdown
+# Fitness Web Using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive fitness website built with React. This project showcases various membership plans, trainer profiles, and more, designed to help users find the perfect fitness plan and trainers.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+[Add your live demo link here if available]
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Responsive design for all devices
+- Membership plans with detailed features
+- Trainer profiles with descriptions
+- Easy navigation and clean UI
+- Built using React components and modular CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React
+- CSS / SCSS
+- JavaScript (ES6+)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/Pratik9145/fitness-web-using-react.git
+````
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd fitness-web-using-react
+   ```
 
-### `npm run eject`
+3. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Folder Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+/src
+  /components    # Reusable React components like Header, Card, etc.
+  /images        # Images used in the project
+  /UI            # UI components like Card wrapper
+  /pages         # Pages to show specific content ex. Trainer, Home etc.
+  /styles        # CSS files
+  App.js         # Main React app
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Screenshots
 
-### Code Splitting
+### Home page / Landing page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Home](https://github.com/user-attachments/assets/d62ecc5f-f130-4dc1-9dff-fbee6c19326a)
 
-### Analyzing the Bundle Size
+### Programs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Programs](https://github.com/user-attachments/assets/5064e563-6589-4518-ae0b-84ba76f0440e)
 
-### Making a Progressive Web App
+### Testimonials
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Testimonials](https://github.com/user-attachments/assets/6fa1bae0-b9c3-4cd6-b35a-18d130b1c1a4)
 
-### Advanced Configuration
+### About page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![About](https://github.com/user-attachments/assets/18ba4918-1ba0-4f07-adbb-d6f428954521)
 
-### Deployment
+### Plans
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Plans](https://github.com/user-attachments/assets/3e6ffd6b-032c-4309-9925-f33ae26ec232)
 
-### `npm run build` fails to minify
+### Trainers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Trainers](https://github.com/user-attachments/assets/44aac8ee-916c-4704-893d-cd52586d41f2)
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues and pull requests.
+
+---
+
+*Made with ❤️ by Pratik9145*
+
+```
+
+---
+
+If you want me to help with:
+
+- Adding badges (build, license, etc.)
+- Deployment instructions (e.g., GitHub Pages, Netlify)
+- More detailed contribution guide
+
+just say the word!
+```
